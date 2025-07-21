@@ -119,5 +119,5 @@ android/configs/android-*.cfg
 AnyKernel
 out
 clang
-wisdom.sh
-log.txt
+tab7904.sh
+log_*.txt
