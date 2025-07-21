@@ -1,0 +1,27 @@
+config MACH_EXYNOS7904_P200_CHN
+	bool "Build Dtbo image for SM-P200"
+	depends on SOC_EXYNOS7885
+	default n
+	help
+	Say Y here if you want to enable building dtbo for Galaxy Tab A 8.0 SPen Wifi.
+
+config MACH_EXYNOS7904_P205_OPEN
+	bool "Build Dtbo image for SM-P205"
+	depends on SOC_EXYNOS7885
+	default n
+	help
+	Say Y here if you want to enable building dtbo for Galaxy Tab A 8.0 SPen LTE.
+
+config MACH_EXYNOS7904_T510_OPEN
+	bool "Build Dtbo image for SM-T510"
+	depends on SOC_EXYNOS7885
+	default n
+	help
+	Say Y here if you want to enable building dtbo for Galaxy Tab A 10.1 Wifi.
+
+config MACH_EXYNOS7904_T515_OPEN
+	bool "Build Dtbo image for SM-T515"
+	depends on SOC_EXYNOS7885
+	default n
+	help
+	Say Y here if you want to enable building dtbo for Galaxy Tab A 10.1 LTE.
